@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+    <language id="com.svay.Twig">
+        <root-zone>language-root.Twig</root-zone>
+        <name>Twig template</name>
+        <detectors>
+            <extension>twig</extension>
+            <!--
+            <extension>tpl</extension>
+            -->
+        </detectors>
+        <default-extension>twig</default-extension>
+    </language>
+</settings>

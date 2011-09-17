@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<syntax name="language-root.Twig">
+
+    <zones>
+        <!-- Root-level <zone> and <include> elements go here -->
+        <zone name="statement">
+            <starts-with>
+                <expression>{%</expression>
+            </starts-with>
+            <ends-with>
+                <expression>%}</expression>
+            </ends-with>
+        </zone>
+        <zone name="expression">
+            <starts-with>
+                <expression>{{</expression>
+            </starts-with>
+            <ends-with>
+                <expression>}}</expression>
+            </ends-with>
+        </zone>
+        
+        <zone name="comment">
+            <starts-with>
+                <expression>{#</expression>
+            </starts-with>
+            <ends-with>
+                <expression>#}</expression>
+            </ends-with>
+        </zone>
+        <include syntax="language-root.html"/>
+    </zones>
+    
+    <!-- The (optional) <library> tag contains collections of reusable zones -->
+    <library>
+        <!-- <collection> elements go here -->
+    </library>
+    
+</syntax>

@@ -1,0 +1,14 @@
+/*
+    @theme Language Placeholder Twig
+    @placeholder Twig
+*/
+statement {
+    color: #699d36;
+}
+expression {
+    color: #d44950;
+}
+comment {
+    color: #b2b2b2;
+    font-weight: normal;
+}
