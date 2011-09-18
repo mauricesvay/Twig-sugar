@@ -5,10 +5,16 @@
 statement {
     color: #699d36;
 }
+statement.content {
+    color: #d44950;
+}
 expression {
     color: #d44950;
 }
 comment {
     color: #b2b2b2;
     font-weight: normal;
+}
+.language.command {
+    color: #699d36;
 }

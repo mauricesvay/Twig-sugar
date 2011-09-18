@@ -10,6 +10,9 @@
             <ends-with>
                 <expression>%}</expression>
             </ends-with>
+            <subzones name="statement.content">
+                <include collection="language" />
+            </subzones>
         </zone>
         <zone name="expression">
             <starts-with>
@@ -33,7 +36,11 @@
     
     <!-- The (optional) <library> tag contains collections of reusable zones -->
     <library>
-        <!-- <collection> elements go here -->
+        <collection name="language">
+            <zone name="language.command">
+                <expression>\b(spaceless|endspaceless|set|raw|endraw|block|endblock|extends|include|autoescape|endautoescape|for|in|endfor|if|else|elseif|endif|macro|endmacro|filter|endfilter|set|endset|import|as)\b</expression>
+            </zone>
+        </collection>
     </library>
     
 </syntax>
