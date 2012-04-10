@@ -38,7 +38,7 @@
     <library>
         <collection name="language">
             <zone name="language.command">
-                <expression>\b(spaceless|endspaceless|set|raw|endraw|block|endblock|extends|include|autoescape|endautoescape|for|in|endfor|if|else|elseif|endif|macro|endmacro|filter|endfilter|set|endset|import|as)\b</expression>
+                <expression>\b(autoescape|endautoescape|block|endblock|do|extends|filter|endfilter|flush|for|in|endfor|from|if|else|elseif|endif|import|include|macro|endmacro|raw|endraw|sandbox|endsandbox|set|endset|spaceless|endspaceless|use|with|as|is|not|debug|trans|plural|endtrans)\b</expression>
             </zone>
         </collection>
     </library>
