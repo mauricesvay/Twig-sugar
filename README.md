@@ -1,10 +1,11 @@
 # Twig.sugar
 
-> Version 1.0
+> Version 1.1
 
 ## Author
 
 * Maurice Svay <maurice@svay.com>, [http://svay.com](http://svay.com)
+* Jonathan Hogervorst <jonathan@hogervorst.info>, [http://www.jonathanhogervorst.com](http://www.jonathanhogervorst.com) (version 1.1)
 
 ## About
 
